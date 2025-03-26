@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/inori/work/DeFi-AttackAnalysis/WTF_Attack/reentrancy/contracts/Attack.sol": {
+      "lastModificationDate": 1742955295982,
+      "contentHash": "97448f2fa5396cf6f3cea845ad40d1d2",
+      "sourceName": "contracts/Attack.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Victim.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "Attack"
+      ]
+    },
+    "/home/inori/work/DeFi-AttackAnalysis/WTF_Attack/reentrancy/contracts/Victim.sol": {
+      "lastModificationDate": 1742955154544,
+      "contentHash": "5e0bead7dfaf4d6bd0c543568dad8550",
+      "sourceName": "contracts/Victim.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "Victim"
+      ]
+    }
+  }
+}
