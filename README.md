@@ -38,8 +38,11 @@ npx hardhat run scripts/deploy.js --network hardhat
 测试脚本将：
 
 （1）向 Victim 合约 存入 10 个 Ether。
+
 （2）调用 Attack 合约 的 attack() 函数发动重入攻击。
+
 （3）将 Victim 合约 的 Ether 提空。
+
 （4）检查 Attack 合约 的余额，确保攻击成功。
 
 使用测试脚本执行重入攻击测试：
